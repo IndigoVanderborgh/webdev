@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    background-color: grey;
+}
+
+.flexbox {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid grey;
+    background-color: white;
+}
+
+.flexbox1 {
+    min-height: 100px;
+}
+
+.flexbox2 {
+    min-height: 100px;
+}
+
+.flexbox3 {
+    min-height: 100px;
+}
+
+/* ask about justify content? actually no use the froggy thing for practice. ask about placement of flex properties.*/
+/* set up the flex content first, then the justify conetn */

@@ -1,0 +1,135 @@
+.body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+.top {
+    background-color: rgb(39, 39, 39);
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+.nav {
+    width: 1080px;
+    margin: auto;
+    color: white;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-title {
+    margin-left: 80px;
+}
+.nav-links {
+    width: 600px;
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-around;
+}
+.button {
+    width: 120px;
+    height: 40px;
+    background-color: lightseagreen;
+    color: white;
+    border: none;
+    font-size: 18px;
+    box-shadow: 6px 6px black;
+}
+.icon {
+    height: 20px;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
+.row {
+    display: flex;
+}
+.col, .col2{
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+.profile, .socials {
+    width: 500px;
+    background-color: white;
+    border: 3px solid grey;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 20px;
+    overflow: hidden;
+}
+.banblue {
+    background-color: lightseagreen;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.avatar {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.format {
+    padding: 20px;
+}
+.format h1, 
+.format h2,
+.format h3,
+.format p {
+    margin: 20px;
+}
+.date {
+    font-size: 20px;
+    color: rgb(131, 131, 131);
+}
+.bangrey {
+    background-color: rgb(85, 85, 85);
+    padding: 20px;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+.socialmedia {
+    background-color: #eee;
+    color: #333;
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.users {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+.socialavatars, .status {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+}
+.avatar1 {
+    border-radius: 50%;
+    height: 48px;
+    margin-right: 10px;
+}
+.connection {
+    background-color: #eee;
+    color: rgb(46, 46, 46);
+    font-size: 20px;
+    border-radius: 12px;
+    height: 24px;
+    padding: 0 10px;
+    margin-right: 10px;
+}
+.footing {
+    padding: 20px;
+    border-top: 2px solid gray;
+}

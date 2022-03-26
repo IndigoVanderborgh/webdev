@@ -1,0 +1,44 @@
+.Pill {
+    background-color: white;
+    border-color: aquamarine;
+    border-style: solid;
+    box-shadow: none;
+    padding: 10px 20px;
+    height: 50px;
+    width: 300px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.Circle {
+    background-color: aquamarine;
+    border-style: solid;
+    border-color: aquamarine;
+    box-shadow: none;
+    padding: 10px 20px;
+    height: 60px;
+    width: 60px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+.Account {
+    background-color: blue;
+    border-color: blue;
+    box-shadow: 6px 6px black;
+    box-sizing: 10px;
+    padding: 10px 20px;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: none;
+}

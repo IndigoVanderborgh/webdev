@@ -1,0 +1,42 @@
+.body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: white;
+}
+.icon {
+    height: 20px;
+}
+.container {
+    width: 1000px;
+    margin: auto;
+}
+.profile {
+    width: 100%;
+    background-color: white;
+    border: 3px solid grey;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    font-size: 1.2rem;
+    overflow: hidden;
+}
+.banblue {
+    background-color: lightseagreen;
+    height: 125px;
+    margin-bottom: 70px;
+}
+.avatar {
+    border-radius: 50%;
+    background-color: white;
+    height: 190px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.format {
+    padding: 20px;
+}
+.format h1, 
+.format h2,
+.format h3,
+.format p {
+    margin: 20px;
+}

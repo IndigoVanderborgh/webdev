@@ -1,0 +1,189 @@
+* {
+    margin-top: 0px;
+    padding: 0px;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: white;
+}
+
+/* overall container */
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+
+/* top banner */
+
+.top {
+    background-color: #333;
+    color: white;
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* text for the site name */
+
+.orangetxt {
+    color: #f79502;
+}
+
+.whitetxt {
+    color: white;
+}
+
+/* end of site name */
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+/* central piece for the navigation bar */
+
+.centerpiece {
+    text-align: center;
+    background-color: #f9cb9c;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.button {
+    font-size: 30px;
+    padding: 2px 20px;
+    border: 2px solid black;
+    cursor: pointer;
+    box-shadow: 5px 5px black;
+    margin: 0px 10px 0px 10px;
+    font-size: 25px;
+
+}
+
+/* specific buttons */
+
+.join {
+    background-color: #f90;
+    color: black;
+}
+
+.login {
+    background-color: #085394;
+    color: white;
+}
+
+.go {
+    background-color: #085394;
+    color: white;
+    padding: 5px 7px 5px 7px;
+    margin-left: -105px;
+}
+
+/* search bar */
+
+.search {
+    font-size: 25px;
+    padding: 5px 15px;
+    margin: 0 50px;
+    border: 2px solid black
+}
+
+.bannertext {
+    text-align: center;
+}
+
+.avatar {
+    height: 100px;
+}
+
+/* headers */
+
+h2 {
+    color: #085394;
+}
+
+h3 {
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* end of headers; recipe overarching containers */
+
+.recipe {
+    flex: 1;
+    margin-top: 50px;
+}
+
+.recipe2 {
+    flex: 2;
+}
+
+/* end of recipe overarching containers, day recipes follow */
+
+.dayrecipe {
+    background-color: lightgray;
+    padding: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.avatarday {
+    height: 450px;
+}
+
+.recommend {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    margin-top: 10px;
+}
+
+/* border under recommended */
+
+.border {
+    border: 3px solid black;   
+    width: auto; 
+    height: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.recommendContainer {
+    width: 100%;
+}
+
+/* recipe of the day styling */
+
+.orangeDesc {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* recommended styling */
+
+.recstyle {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 0px;
+}
+
+/* heart styling */
+
+.heartStyle {
+    display: flex;
+}
+
+/* text description alignment */
+
+.textLeft {
+    text-align: left;
+}
+
